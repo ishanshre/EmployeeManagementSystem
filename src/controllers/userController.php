@@ -4,7 +4,7 @@ class userController{
     public $model;
 
     public function __construct(){
-        require(BASE_DIR."/models/user.php");
+        require(BASE_DIR."/models/User.php");
         $this->model = new User();
     }
 

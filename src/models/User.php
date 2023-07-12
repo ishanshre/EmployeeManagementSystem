@@ -1,6 +1,6 @@
 <?php
 
-    require(BASE_DIR."/connection/connection.php");
+    require(BASE_DIR."/connection/Connection.php");
     
     class User extends Connection{
         public $id;
